@@ -1,0 +1,280 @@
+/* @keyframes socailImganimation1 {
+
+   0% {
+        position: absolute;
+        right: 0;
+        top: 850px;
+    }
+   
+} */
+@keyframes socailImganimation2 {
+
+    0% {
+     
+         left: 0;
+         top: 850px;
+     }
+     50%{
+        left: 100px;
+        top: 750px;
+     }
+     75%{
+        left: 0;
+        top: 850px;
+     }
+    
+ }
+ @keyframes socailImganimation3 {
+
+    0% {
+         position: absolute;
+         left: 0;
+         top: 850px;
+     }
+     50%{
+        height: 80px;
+    left: 200px;
+     }
+     75%{
+        left: 0;
+        top: 850px;
+     }
+    
+ }
+ @keyframes socailImganimation4 {
+
+    0% {
+         position: absolute;
+         left: 0;
+         top: 850px;
+     }
+     50%{
+        left: 300px;
+        top: 750px;
+     }
+     75%{
+        left: 0;
+        top: 850px;
+     }
+    
+ }
+ @keyframes socailImganimation5 {
+
+    0% {
+         position: absolute;
+         right: 0;
+        top: 850px;
+     }
+     50%{
+        right: 300px;
+        top: 750px;
+     }
+     75%{
+        right: 0;
+        top: 850px;
+     }
+    
+ }
+ @keyframes socailImganimation6 {
+
+    0% {
+         position: absolute;
+         right: 0;
+         top: 850px;
+     }
+    50%{
+        right: 200px;
+        top: 850px;
+    }
+    75%{
+        right: 0;
+        top: 850px;
+     }
+ }
+ @keyframes socailImganimation7 {
+
+    0% {
+         position: absolute;
+         right: 0;
+         top: 850px;
+     }
+     50%{
+        right: 100px;
+    top: 750px;
+     }
+     75%{
+        right: 0;
+        top: 850px;
+     }
+    
+ }
+ @keyframes navbar {
+
+    0% {
+         display: flex;
+         opacity: 0;
+     }
+    
+ }
+
+.nav-bar {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+    animation-name: navbar;
+    animation-duration: 5s;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav-bar-item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 167px;
+  height: 58px;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #ff5d22;
+}
+.nav-bar-item-a {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  color: #fff;
+  font-size: 18px;
+  font-family: Open Sans;
+  font-weight: 600;
+  text-decoration: none;
+  
+}
+
+.hero-title {
+  display: flex;
+  width: 676px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: var(--gray-1, #333);
+  text-align: center;
+  font-size: 40px;
+  font-family: Open Sans;
+  font-weight: 700;
+  justify-content: center;
+
+}
+
+.hero-animation{
+    animation-name: navbar;
+    animation-duration: 5s;
+}
+.hero{
+width: 486px;
+color: var(--gray-1, #333);
+text-align: center;
+font-size: 40px;
+font-family: Open Sans;
+font-weight: 700;
+}
+.socail-img{
+    position: relative;
+   left: 350px;
+ 
+}
+.socail-img1{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 850px;
+}
+.socail-img2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 100px;
+        top: 750px;
+    animation: socailImganimation2;
+    animation-duration: 10s;
+   
+}
+.socail-img3{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 200px;
+    top: 850px;
+    animation: socailImganimation3;
+    animation-duration: 10s;
+}
+.socail-img4{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 300px;
+    top: 750px;
+    animation: socailImganimation4;
+    animation-duration: 10s;
+}
+.socail-img5{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 300px;
+        top: 750px;
+    animation: socailImganimation5;
+    animation-duration: 10s;
+}
+
+.socail-img6{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    
+ right: 200px;
+ top: 850px;
+    animation: socailImganimation6;
+    animation-duration: 10s;
+}
+.socail-img7{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 100px;
+    top: 750px;
+    animation: socailImganimation7;
+    animation-duration: 10s;
+}
+.socail-img8{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+  right: 0;
+  top: 850px;
+  animation: socailImganimation8;
+  animation-duration: 10s;
+}
+
+.hero2{
+    width: 386px;
+    color: var(--gray-1, #333);
+   
+    font-size: 40px;
+    font-family: Open Sans;
+    font-weight: 700;
+    }
+
+  
+
+    
+      .bar_content {
+        display: block; /* Important to give the content a width */
+      
+        width: 100%;
+        transform: translateX(100%); /* Animation start out of the screen */
+      
+        /* Add the animation */
+        animation: move 20s linear infinite /* infinite make reapeat the animation indefinitely */;
+      }
+      
+      /* Create the animation */
+      @keyframes move {
+        to { transform: translateX(-100%); }
+      }
