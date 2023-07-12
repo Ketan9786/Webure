@@ -176,19 +176,20 @@ font-weight: 700;
 }
 .socail-img{
     position: relative;
-   left: 350px;
+   
  
 }
 .socail-img1{
-    position: absolute;
-    width: 80px;
-    height: 80px;
+    position: absolute ;
+    width: 6%;
+    height: auto;
+    left: 0;
     top: 850px;
 }
 .socail-img2{
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 6%;
+    height: auto;
     left: 100px;
         top: 750px;
     animation: socailImganimation2;
@@ -197,8 +198,8 @@ font-weight: 700;
 }
 .socail-img3{
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 6%;
+    height: auto;
     left: 200px;
     top: 850px;
     animation: socailImganimation3;
@@ -206,8 +207,8 @@ font-weight: 700;
 }
 .socail-img4{
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 6%;
+    height: auto;
     left: 300px;
     top: 750px;
     animation: socailImganimation4;
@@ -215,8 +216,8 @@ font-weight: 700;
 }
 .socail-img5{
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 6%;
+    height: auto;;
     right: 300px;
         top: 750px;
     animation: socailImganimation5;
@@ -225,8 +226,8 @@ font-weight: 700;
 
 .socail-img6{
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 6%;
+    height: auto;
     
  right: 200px;
  top: 850px;
@@ -235,8 +236,8 @@ font-weight: 700;
 }
 .socail-img7{
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 6%;
+    height: auto;
     right: 100px;
     top: 750px;
     animation: socailImganimation7;
@@ -244,8 +245,8 @@ font-weight: 700;
 }
 .socail-img8{
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 6%;
+    height: auto;
   right: 0;
   top: 850px;
   animation: socailImganimation8;
@@ -265,16 +266,19 @@ font-weight: 700;
 
     
       .bar_content {
-        display: block; /* Important to give the content a width */
-      
-        width: 100%;
-        transform: translateX(100%); /* Animation start out of the screen */
-      
+        display: flex; /* Important to give the content a width */
+        width: auto;
         /* Add the animation */
-        animation: move 20s linear infinite /* infinite make reapeat the animation indefinitely */;
+        animation: move 30s linear infinite /* infinite make reapeat the animation indefinitely */;
       }
       
+      .bar_content img{
+        width: 100%;
+        height: auto;
+      }
       /* Create the animation */
       @keyframes move {
-        to { transform: translateX(-100%); }
+      
+        50% { transform: translateX(-90%); }
+        100% { transform: translateX(100%); }
       }
