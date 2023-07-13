@@ -7,122 +7,108 @@
     }
    
 } */
-@keyframes socailImganimation2 {
-
-    0% {
-     
-         left: 0;
-         top: 850px;
-     }
-     50%{
-        left: 100px;
-        top: 750px;
-     }
-     75%{
-        left: 0;
-        top: 850px;
-     }
-    
- }
- @keyframes socailImganimation3 {
-
-    0% {
-         position: absolute;
-         left: 0;
-         top: 850px;
-     }
-     50%{
-        height: 80px;
+/* @keyframes socailImganimation2 {
+  0% {
+    left: 0;
+    bottom: 0;
+  }
+  50% {
+    left: 100px;
+    top: 0;
+  }
+  75% {
+    left: 0;
+    bottom: 0;
+  }
+}
+@keyframes socailImganimation3 {
+  0% {
+    position: absolute;
+    left: 0;
+    top: 850px;
+  }
+  50% {
+    height: 80px;
     left: 200px;
-     }
-     75%{
-        left: 0;
-        top: 850px;
-     }
-    
- }
- @keyframes socailImganimation4 {
-
-    0% {
-         position: absolute;
-         left: 0;
-         top: 850px;
-     }
-     50%{
-        left: 300px;
-        top: 750px;
-     }
-     75%{
-        left: 0;
-        top: 850px;
-     }
-    
- }
- @keyframes socailImganimation5 {
-
-    0% {
-         position: absolute;
-         right: 0;
-        top: 850px;
-     }
-     50%{
-        right: 300px;
-        top: 750px;
-     }
-     75%{
-        right: 0;
-        top: 850px;
-     }
-    
- }
- @keyframes socailImganimation6 {
-
-    0% {
-         position: absolute;
-         right: 0;
-         top: 850px;
-     }
-    50%{
-        right: 200px;
-        top: 850px;
-    }
-    75%{
-        right: 0;
-        top: 850px;
-     }
- }
- @keyframes socailImganimation7 {
-
-    0% {
-         position: absolute;
-         right: 0;
-         top: 850px;
-     }
-     50%{
-        right: 100px;
+  }
+  75% {
+    left: 0;
+    top: 850px;
+  }
+}
+@keyframes socailImganimation4 {
+  0% {
+    position: absolute;
+    left: 0;
+    top: 850px;
+  }
+  50% {
+    left: 300px;
     top: 750px;
-     }
-     75%{
-        right: 0;
-        top: 850px;
-     }
-    
- }
- @keyframes navbar {
-
-    0% {
-         display: flex;
-         opacity: 0;
-     }
-    
- }
+  }
+  75% {
+    left: 0;
+    top: 850px;
+  }
+}
+@keyframes socailImganimation5 {
+  0% {
+    position: absolute;
+    right: 0;
+    top: 850px;
+  }
+  50% {
+    right: 300px;
+    top: 750px;
+  }
+  75% {
+    right: 0;
+    top: 850px;
+  }
+}
+@keyframes socailImganimation6 {
+  0% {
+    position: absolute;
+    right: 0;
+    top: 850px;
+  }
+  50% {
+    right: 200px;
+    top: 850px;
+  }
+  75% {
+    right: 0;
+    top: 850px;
+  }
+}
+@keyframes socailImganimation7 {
+  0% {
+    position: absolute;
+    right: 0;
+    top: 850px;
+  }
+  50% {
+    right: 100px;
+    top: 750px;
+  }
+  75% {
+    right: 0;
+    top: 850px;
+  }
+} */
+@keyframes navbar {
+  0% {
+    display: flex;
+    opacity: 0;
+  }
+}
 
 .nav-bar {
   width: 100%;
   height: 100%;
   flex-shrink: 0;
-    animation-name: navbar;
-    animation-duration: 5s;
+  animation-name: navbar;
+  animation-duration: 5s;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -145,7 +131,6 @@
   font-family: Open Sans;
   font-weight: 600;
   text-decoration: none;
-  
 }
 
 .hero-title {
@@ -159,122 +144,188 @@
   font-family: Open Sans;
   font-weight: 700;
   justify-content: center;
-
 }
 
-.hero-animation{
-    animation-name: navbar;
-    animation-duration: 5s;
+.hero-animation {
+  animation-name: navbar;
+  animation-duration: 5s;
 }
-.hero{
-width: 486px;
-color: var(--gray-1, #333);
-text-align: center;
-font-size: 40px;
-font-family: Open Sans;
-font-weight: 700;
+.hero {
+  width: 486px;
+  color: var(--gray-1, #333);
+  text-align: center;
+  font-size: 40px;
+  font-family: Open Sans;
+  font-weight: 700;
 }
-.socail-img{
-    position: relative;
-   left: 350px;
- 
-}
-.socail-img1{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    top: 850px;
-}
-.socail-img2{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 100px;
-        top: 750px;
-    animation: socailImganimation2;
-    animation-duration: 10s;
-   
-}
-.socail-img3{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 200px;
-    top: 850px;
-    animation: socailImganimation3;
-    animation-duration: 10s;
-}
-.socail-img4{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 300px;
-    top: 750px;
-    animation: socailImganimation4;
-    animation-duration: 10s;
-}
-.socail-img5{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    right: 300px;
-        top: 750px;
-    animation: socailImganimation5;
-    animation-duration: 10s;
+.socail-img {
+  position: relative;
+  left: 350px;
 }
 
-.socail-img6{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    
- right: 200px;
- top: 850px;
-    animation: socailImganimation6;
-    animation-duration: 10s;
+@keyframes socailimg {
+  25% {
+    transform: translateY(-150%);
+    transform: scale(50%);
+  }
+  50% {
+    transform: translateY(-150%);
+  }
+  75% {
+    transform: scale(50%);
+  }
 }
-.socail-img7{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    right: 100px;
-    top: 750px;
-    animation: socailImganimation7;
-    animation-duration: 10s;
+.socail-img1 {
+  position: absolute;
+  width: 5%;
+  height: auto;
+  left: 0;
+  bottom: 0;
+  animation: socailimg 5s infinite;
 }
-.socail-img8{
-    position: absolute;
-    width: 80px;
-    height: 80px;
+.socail-img2 {
+  position: absolute;
+  width: 5%;
+  height: auto;
+  left: 8%;
+  bottom: 20%;
+  animation: socailimg 5s infinite;
+}
+.socail-img3 {
+  position: absolute;
+  width: 5%;
+  height: auto;
+  left: 16%;
+  bottom: 10%;
+  animation: socailimg 5s infinite;
+}
+.socail-img4 {
+  position: absolute;
+  width: 5%;
+  height: auto;
+  left: 24%;
+  bottom: 20%;
+  animation: socailimg 5s infinite;
+}
+.socail-img5 {
+  position: absolute;
+  width: 5%;
+  height: auto;
+  right: 24%;
+  bottom: 10%;
+  animation: socailimg 5s infinite;
+}
+
+.socail-img6 {
+  position: absolute;
+  width: 5%;
+  height: auto;
+  right: 16%;
+  bottom: 20%;
+  animation: socailimg 5s infinite;
+}
+.socail-img7 {
+  position: absolute;
+  width: 5%;
+  height: auto;
+  right: 8%;
+  bottom: 10%;
+  animation: socailimg 5s infinite;
+}
+.socail-img8 {
+  position: absolute;
+  width: 5%;
+  height: auto;
   right: 0;
-  top: 850px;
-  animation: socailImganimation8;
-  animation-duration: 10s;
+  bottom: 20%;
+  animation: socailimg 5s infinite;
 }
 
-.hero2{
-    width: 386px;
+.hero2 {
+  max-width: 386px;
+  color: var(--gray-1, #333);
+  font-size: 40px;
+  font-family: Open Sans;
+  font-weight: 700;
+}
+
+@keyframes move {
+ 
+  100%{
+    transform: translateX(-330%);
+  }
+
+}
+.bar_content {
+  display: flex; /* Important to give the content a width */
+  /* Animation start out of the screen */
+  /* Add the animation */
+  transform: translateX(100%);
+  width: 100%;
+  animation: move 20s linear infinite;
+    /* infinite make reapeat the animation indefinitely */;
+}
+
+.bar_content img {
+  max-width: 110px;
+  max-height: 28px;
+  flex-shrink: 0;
+  margin: 5%;
+  margin-left: 10%;
+}
+/* Create the animation */
+
+.cards:hover {
+    width: auto;
+    height: auto;
+  flex-shrink: 0;
+  border-radius: 12.228px;
+  background: #fff;
+  box-shadow: 0px 4.092071533203125px 25.271739959716797px 6.521739482879639px
+    rgba(0, 0, 0, 0.2);
+}
+
+
+.countcard{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+
+    margin: 5% 0% ;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 23.264px;
+    background: #FFF;
+    box-shadow: 0px 0px 22.333332061767578px 0.9305554628372192px rgba(238, 238, 238, 0.88);
+}
+
+.countcard h4{
     color: var(--gray-1, #333);
-   
-    font-size: 40px;
-    font-family: Open Sans;
-    font-weight: 700;
-    }
+text-align: center;
+font-family: Open Sans;
+font-size: 93.056px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.countcard p{
+    color: var(--gray-3, #828282);
+text-align: center;
+font-family: Open Sans;
+font-size: 27.917px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 
-  
 
-    
-      .bar_content {
-        display: block; /* Important to give the content a width */
-      
-        width: 100%;
-        transform: translateX(100%); /* Animation start out of the screen */
-      
-        /* Add the animation */
-        animation: move 20s linear infinite /* infinite make reapeat the animation indefinitely */;
-      }
-      
-      /* Create the animation */
-      @keyframes move {
-        to { transform: translateX(-100%); }
-      }
+option{
+  background-color:#ff5d22
+}
+
+.strategr :hover{
+    border-radius: 10px;
+   background-color: #FFF;
+}
