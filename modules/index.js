@@ -43,7 +43,7 @@ function increment(){
         clearInterval(myInterval);
     }
 }   
-const myInterval = setInterval(increment,500);
+const myInterval = setInterval(increment,1000);
 
 
     // setInterval(increment,500);
